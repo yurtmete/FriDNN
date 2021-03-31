@@ -167,7 +167,7 @@ if __name__ == "__main__":
 
     parser.add_argument('-d', '--delay',
                         type=int,
-                        help='Delay in samples (10 ms in 16 kHz.)',
+                        help='Detection delay in samples',
                         metavar='<Delay>',
                         default=160)
 
