@@ -1,7 +1,7 @@
 # FriDNN
 Fricative Detection Using 1D CNNs
 
-## Install
+## Installation
 
 1- Install CUDA and CUDNN, recommended versions
 
@@ -34,7 +34,7 @@ optional arguments:
   -D <TimitDirectory>, --timit_directory <TimitDirectory>
                         Directory containing TIMIT dataset.
   -d <Delay>, --delay <Delay>
-                        Delay in samples (10 ms in 16 kHz.)
+                        Detection delay in samples
   -t <TargetDirectory>, --target_dir <TargetDirectory>
                         Target directory for the experiment
   --test_only           Test already trained model
