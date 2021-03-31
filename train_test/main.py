@@ -161,6 +161,7 @@ if __name__ == "__main__":
 
     parser.add_argument('-D', '--timit_directory',
                         type=str,
+                        required=True,
                         help='Directory containing TIMIT dataset.',
                         metavar='<TimitDirectory>')
 
@@ -172,7 +173,7 @@ if __name__ == "__main__":
 
     parser.add_argument('-t', '--target_dir',
                         type=str,
-                        default='experiment',
+                        required=True,
                         help='Target directory for the experiment',
                         metavar='<TargetDirectory>')
 
