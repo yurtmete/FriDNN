@@ -20,7 +20,7 @@ $ virtualenv env -p python3.6
 $ source env/bin/activate
 $ pip install -e .
 ```
-## To train the model
+## To train and test a model
 
 Use the main script to train a model:
 
