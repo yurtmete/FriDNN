@@ -161,7 +161,6 @@ if __name__ == "__main__":
 
     parser.add_argument('-D', '--timit_directory',
                         type=str,
-                        default='/home/amm-proj/phine/data/ASR/RAW/',
                         help='Directory containing TIMIT dataset.',
                         metavar='<TimitDirectory>')
 
