@@ -20,7 +20,7 @@ $ virtualenv env -p python3.6
 $ source env/bin/activate
 $ pip install -e .
 ```
-## To train and test a model
+## To train and test a new model
 
 Use the main script to train a model:
 
@@ -42,8 +42,20 @@ optional arguments:
 
 ### Example:
 ```
-python train_test.py -D /home/user/workspace 
+python train_test.py -D /home/user/workspace -t experiment_1
 ```
-**Note** /home/user/workspace directory should hold TIMIT folder. 
+**Note:** /home/user/workspace directory should hold TIMIT folder. 
 
-## To test and calculate the performance results stated in the paper 
+**Note:** Checkpoints, performance results, tensorboard logs, model summary will be saved in *experiment_1* folder.
+
+## To test and calculate the performance results stated in the paper
+
+Run the following command to test the model that is used in the paper to report the performance:
+
+```
+python train_test.py -D /home/user/workspace -t model_in_paper --test_only
+```
+
+**Note:** Target directory should be set to model_in_paper. It holds the checkpoint of the model we used in our paper.
+
+**Note:** The flag **--test_only** should be passed, as the training is already performed.  
