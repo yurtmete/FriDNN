@@ -26,7 +26,7 @@ Use the main script to train a model:
 
 ```
 $ python train_test/main.py -h
-usage: main.py [-h] [-D <TimitDirectory>] [-d <Delay>] [-t <TargetDirectory>]
+usage: main.py [-h] -D <TimitDirectory> [-d <Delay>] -t <TargetDirectory>
                [--test_only]
 
 optional arguments:
