@@ -39,3 +39,11 @@ optional arguments:
                         Target directory for the experiment
   --test_only           Test already trained model
 ```
+
+### Example:
+```
+python train_test.py -D /home/user/workspace 
+```
+**Note** /home/user/workspace directory should hold TIMIT folder. 
+
+## To test and calculate the performance results stated in the paper 
