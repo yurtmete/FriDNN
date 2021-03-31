@@ -175,7 +175,7 @@ if __name__ == "__main__":
                         type=str,
                         default='experiment',
                         help='Target directory for the experiment',
-                        metavar='<TargetFolder>')
+                        metavar='<TargetDirectory>')
 
     parser.add_argument('--test_only',
                         default=False,
