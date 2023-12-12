@@ -1,5 +1,9 @@
 # FriDNN
-Fricative Detection Using 1D CNNs
+Fricative Detection Using 1D CNNs. 
+
+This repository contains the implementation of the model we described in our paper, "Fricative Phoneme Detection Using Deep Neural Networks and its Comparison to Traditional Methods". 
+
+You can access the paper here: https://www.isca-speech.org/archive/pdfs/interspeech_2021/yurt21_interspeech.pdf
 
 ## Installation
 
